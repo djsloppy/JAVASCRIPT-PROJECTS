@@ -28,19 +28,24 @@ document.write(lineBreak); //sends a line break
 var strA = "\"For we walk by faith, not by sight.\""; //sets the variable
 var srtB = "2 Corinthians 5:7"; //sets the variable
 var strC = " - "; //sets the variable
-document.write (strA + strC + srtB);  //concatenates the variables
+document.write(strA + strC + srtB);  //concatenates the variables
 document.write(lineBreak); //sends a line break
 
 // Multiple Variables Assignment
 var baseball = "Rays", football = "Steelers", hockey = "Penguins", college = "Bearcats"; //sets multiple variables on a single line
-document.write (college); //writes one of those variables
+document.write(college); //writes one of those variables
 document.write(lineBreak); //sends a line break
 
 // Expression Assignment
 document.write(5 + 4); //writes the expression
 document.write(lineBreak); //sends a line break
 
-//BASIC JAVASCRIPT PROJECTS SUBMISSION ASSIGNMENT
+// BASIC JAVASCRIPT PROJECTS SUBMISSION ASSIGNMENT
 var Sent1 = "This is the beginning of the string"; //sets the variable
 var Sent2 = "and this is the end of the string"; //sets the variable
 document.write(Sent1 + Sent2); //concatenates the variables
+
+// Event Challenge
+function displayDate() {
+    document.getElementById("date").innerHTML = Date();
+}
