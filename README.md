@@ -10,6 +10,7 @@ All of the project files for The Tech Academy's JavaScript Course will be stored
 - Project 6 - Ternary Operators & Constructors
 - Project 7 - Scope & Time Function
 - Project 8 - String Methods
+- Project 9 - Countdown Slideshow
 
 #### Project 1 - Expressions Alert
 **Overview:** This introduced us to basic JavaScript elements and linking JavaScript to an HTML document.<br>
@@ -43,3 +44,7 @@ All of the project files for The Tech Academy's JavaScript Course will be stored
 **Overview:** This introduced us to string methods.<br>
 **Built with:** HTML; JavaScript<br>
 **Features:** Concatenation; Split; Capitalize; Search; toString; toPrecision; toFixed; valueOf;
+#### Project 9 - Countdown Slideshow
+**Overview:** T<br>
+**Built with:** HTML; JavaScript<br>
+**Features:** 
