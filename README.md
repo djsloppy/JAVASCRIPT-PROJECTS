@@ -11,6 +11,8 @@ All of the project files for The Tech Academy's JavaScript Course will be stored
 - Project 7 - Scope & Time Function
 - Project 8 - String Methods
 - Project 9 - Countdown Slideshow
+- Project 10 - Loops & Arrays
+- Tic Tac Toe
 
 #### Project 1 - Expressions Alert
 **Overview:** This introduced us to basic JavaScript elements and linking JavaScript to an HTML document.<br>
@@ -44,7 +46,15 @@ All of the project files for The Tech Academy's JavaScript Course will be stored
 **Overview:** This introduced us to string methods.<br>
 **Built with:** HTML; JavaScript<br>
 **Features:** Concatenation; Split; Capitalize; Search; toString; toPrecision; toFixed; valueOf;
-#### Project 9 - Countdown Slideshow
-**Overview:** T<br>
+#### Project 9 - Countdown & Slideshow
+**Overview:** This introduced us to the countdown and Slideshow<br>
+**Built with:** HTML; JavaScript; CSS<br>
+**Features:** Timer; Timeout; ShowSlides; Display; Images
+#### Project 10 - Loops & Arrays
+**Overview:** This introduced loops, arrays, constants, let, return, break and continue methods<br>
 **Built with:** HTML; JavaScript<br>
-**Features:** 
+**Features:** For Loop; Arrays; Constants; Let declaration; Return; Break and Continue
+#### Tic Tac Toe
+**Overview:** This is the classic Tic Tac Toe game<br>
+**Built with:** HTML; JavaScript; CSS<br>
+**Features:** Code is written in JavaScript; also uses images and audio sounds
