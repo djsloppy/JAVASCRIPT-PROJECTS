@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Running JavaScript in the Console</title>
+    <meta charset="UTF-8">
+</head>
+
+<body>
+    <p id="globalVariables" onclick="global()">Global - click here</p>
+    <p id="localVariables" onclick="local()">Local - click here</p>
+    <hr>
+    <p id="concat" onclick="concatenate()">Click here for a concatenated sentence</p>
+    <hr>
+    <button onclick="newCourse()">Click here for new course</button>
+    <p id="displayCourse"></p>
+    <hr>
+    <p id="displayAge"></p>
+    <hr>
+    <p>The window object: screenX & screenY properties</p>
+    <button onclick="openWindow()">Open Window</button>
+    <p id="window"></p>
+    <hr>
+    <p>The setTimeout() Method</p>
+    <br><p>Wait 5 second for the message:</p>
+    <h1 id="greeting"></h1>
+    <hr>
+    <p>The atob() Method</p>
+    <button onclick="encode()">Start encoding the world!</button>
+    <p id="encoding"></p>
+    <script>
+        // a nad b are global variable that can be edited in the console
+        let a = 3;
+        let b = 4;
+
+        function global() {
+            result = a + b;
+            document.getElementById("globalVariables").innerHTML = "Global variable a (" + a + ") plus global variable b (" + b + ") equals " + result;
+        }
+
+        function local() {
+            let c = 4;
+            let d = 3;
+            result = c + d;
+            document.getElementById("localVariables").innerHTML = "Local variable c (" + c + ") plus local variable d (" + d + ") equals " + result;
+        }
+
+        // Declare values for sentence1 and sentence2 in the console
+        let sentence1;
+        let sentence2;
+
+        function concatenate() {
+            // Concatenate sentence1 and sentence 2 using
+            // the .concat() method
+            let concatSent = sentence1.concat(sentence2);
+
+            // Display result on webapge
+            document.getElementById("concat").innerHTML = concatSent;
+
+            // Display result in the console
+            console.log(concatSent);
+        }
+
+        // Creates a course object constructor
+        function Course(Name, Type, Duration) {
+            this.courseName = "Today's new course is: " + Name + "<br>";
+            this.courseType = "Type: " + Type + "<br>";
+            this.courseDur = "Course Length: " + Duration + " hours";
+        }
+
+        let js = new Course("JavaScript", "Code", 55);
+        let py = new Course("Python", "Code", 90);
+
+        // Get user input and calculate the age
+        // based on the year
+        let year = prompt("Type in the year you were born");
+        let yearNow = new Date().getFullYear();
+        let age = Math.floor(yearNow - year);
+
+        // WINDOW OBJECT CHALLENGE - PROPERTY
+        function openWindow() {
+            const myWin = window.open("", "", "left=700, top=350, width=200, height=100");
+            let x = myWin.screenX;
+            let y = myWin.screenY;
+            document.getElementById("window").innerHTML = "myWin.screenX = " + x + "<br>myWin.screenY = " + y;
+        }
+
+        // WINDOW OBJECT CHALLENGE - METHOD (myTimeout)
+        const myTimeout = setTimeout(mygreeting, 5000);
+
+        function mygreeting(){
+            document.getElementById("greeting").innerHTML = "BOOOO!!";
+        }
+
+        // WINDOW OBJECT CHALLENGE - METHOD (atob)
+
+        function encode(){
+            let text = "Hello, World!";
+            let encoded = window.btoa(text);
+            let decoded = window.atob(encoded);
+
+            document.getElementById("encoding").innerHTML = "Encoded phrase: " + encoded + "<br>Decoded phrase: " + decoded;
+        }
+    </script>
+</body>
+
+</html>
