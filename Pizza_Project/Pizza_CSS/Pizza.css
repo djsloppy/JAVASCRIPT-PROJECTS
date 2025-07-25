@@ -1,0 +1,75 @@
+/* Fonts from fonts.google.com */
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Prop+Single:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&display=swap');
+
+
+#menuBG {
+    width: 500px;
+    height: 470px;
+    margin: 10px auto;
+}
+
+#frmMenu {
+    width: 400px;
+    height: 200px;
+}
+
+#totalPrice {
+    width: 200px;
+    height: 190px;
+    margin: 0 auto;
+    float: right;
+}
+
+/* Displays the menu in columns with a small gap between columns and sets the size of the column width*/
+.gridMenu {
+    display: grid;
+    column-gap: 10px;
+    grid-template-columns: 175px 175px 175px;
+}
+
+ /* Adds padding to the div element, also aligns all text to the left. */ 
+.gridMenu > div {
+    padding: 10px;
+    text-align: left;
+}
+
+#showText {
+    width: 200px;
+    height: 190px;
+    margin: 0px auto;
+    float: left;
+}
+
+#cart {
+    top: 0;
+    margin: px auto;
+    width: 400px;
+    height: 200px;
+}
+
+#btnOrder {
+    margin: 10px 0px 0px 100px;
+    width: 100px;
+    height: 40px;
+}
+
+body {
+    background-color: #7fffd4;
+}
+
+h1 {
+    font-family: "Bitcount Prop Single", system-ui;
+    color: #374b43;
+}
+
+h3 {
+    font-family: "Arimo", sans-serif;
+    color: #336a7c;
+}
+
+div {
+    font-family: "Oswald", sans-serif;
+    color: #348d9d;
+}

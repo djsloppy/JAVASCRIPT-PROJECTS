@@ -13,6 +13,9 @@ All of the project files for The Tech Academy's JavaScript Course will be stored
 - Project 9 - Countdown Slideshow
 - Project 10 - Loops & Arrays
 - Tic Tac Toe
+- Calculator
+- Simple Recipes
+- Pizza Project
 
 #### Project 1 - Expressions Alert
 **Overview:** This introduced us to basic JavaScript elements and linking JavaScript to an HTML document.<br>
@@ -58,3 +61,15 @@ All of the project files for The Tech Academy's JavaScript Course will be stored
 **Overview:** This is the classic Tic Tac Toe game<br>
 **Built with:** HTML; JavaScript; CSS<br>
 **Features:** Code is written in JavaScript; also uses images and audio sounds
+#### Calculator
+**Overview:** This is a Calculator<br>
+**Built with:** HTML; JavaScript; CSS<br>
+**Features:** Code is written in JavaScript;
+#### Simple Recipes
+**Overview:** We added JavaScript functionality to a previous website. When clicking on a button will display the recipe and will close after 10 seconds unless user clicks the (x) first.<br>
+**Built with:** HTML; JavaScript; CSS<br>
+**Features:** Code is written in JavaScript; Timeout method
+#### Pizza Project
+**Overview:** We created a Pizza Menu/Ordering website. Based on selection of size and toppings JavaScript will display the total cost and print a receipt in the console.<br>
+**Built with:** HTML; JavaScript; CSS<br>
+**Features:** Code is written in JavaScript; 
