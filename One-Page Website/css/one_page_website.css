@@ -1,0 +1,144 @@
+html {
+    scroll-padding-top: 95px;
+}
+
+/* NAVBAR */
+.navbar li, footer li {
+    display: inline;
+    padding: 8px;
+}
+
+.navbar a {
+    font-family: "Roboto", sans-serif;
+    /* Font from fonts.google.com */
+    font-size: 30px;
+    font-weight: 700;
+    text-shadow: 1px .5px 4px rgba(78, 66, 66, 0.5);
+    color: #216391;
+    text-decoration: none;
+    /* Removes the default link styling */
+}
+
+.navbar a:hover {
+    color: #d7eaf7;
+    /* Changes the color of the anchor element when a user hovers their mouse over it */
+}
+
+.navbar {
+    background-color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    /* The following minus margins stretch the navbar background beyond the web browser screen edge */
+    margin-top: -8px;
+    margin-left: -10px;
+    margin-right: -10px;
+    /* position: sticky; */
+    /* Creates a sticky element that stays in the same spot in the browser screen */
+    top: 0;
+    /* Tells the browser to stick the element at the top of the page based on user scrolling */
+    /* z-index: 9;*/
+    /* Sets the stack layer of the navbar to scroll over all elements */
+}
+
+p,
+summary,
+h2,
+h1 {
+    font-family: "Roboto", sans-serif;
+    /* Font from fonts.google.com */
+}
+
+/* FORM */
+input,
+textarea {
+    width: 200px;
+    height: 25px;
+    margin: 2px 10px;
+    border: 2px solid;
+    border-color: #216391;
+    border-radius: 10px;
+}
+
+textarea {
+    width: 430px;
+    height: 50px;
+}
+
+hr {
+    width: 50%;
+}
+
+footer {
+    display: inline-block;
+    border-top: 5px solid;
+    background-color: black;
+    margin: 0px -15px 0px -15px;
+}
+
+.footer-text {
+    color: white;
+    text-decoration: none;
+    font-size: medium;
+}
+
+.footer-img {
+    width: auto;
+    height: 100px;
+}
+
+* {box-sizing: border-box;}
+body {font-family: Verdana, sans-serif;}
+.mySlides {display: none;}
+img{vertical-align: middle; align-self: center;}
+
+/* Slideshow container */
+.slideshow-container {
+    max-width: 320px;
+    position: relative;
+    margin: auto;
+}
+
+/* Caption text */
+.text {
+    color: #216391;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+    background-color: rgba(0,0,0,0.85);
+}
+
+/* The dots/bullets/indicators */
+.dot{
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #216391;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+    font-size: 11px;
+    color: white;
+}
+
+.active{
+    background-color: black;
+}
+
+/* Fading animation */
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+    .text {font-size: 11px}
+}
