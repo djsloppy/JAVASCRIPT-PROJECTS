@@ -16,6 +16,10 @@ All of the project files for The Tech Academy's JavaScript Course will be stored
 - Calculator
 - Simple Recipes
 - Pizza Project
+- One-Page Website
+- AJAX
+- jQuery
+
 
 #### Project 1 - Expressions Alert
 **Overview:** This introduced us to basic JavaScript elements and linking JavaScript to an HTML document.<br>
@@ -73,3 +77,15 @@ All of the project files for The Tech Academy's JavaScript Course will be stored
 **Overview:** We created a Pizza Menu/Ordering website. Based on selection of size and toppings JavaScript will display the total cost and print a receipt in the console.<br>
 **Built with:** HTML; JavaScript; CSS<br>
 **Features:** Code is written in JavaScript; 
+#### One-Page Website
+**Overview:** We added to a webapage that we built earlier to add a slideshow using JavaScript.<br>
+**Built with:** HTML; JavaScript; CSS<br>
+**Features:** Slideshow; 
+#### AJAX
+**Overview:** Introduction to AJAX.<br>
+**Built with:** HTML; JavaScript; CSS; AJAX<br>
+**Features:** Code is written in JavaScript with AJAX; 
+#### jQuery
+**Overview:** Introduction to AJAX.<br>
+**Built with:** HTML; JavaScript; CSS; jQuery<br>
+**Features:** Code is written in JavaScript with AJAX; 
