@@ -86,6 +86,6 @@ All of the project files for The Tech Academy's JavaScript Course will be stored
 **Built with:** HTML; JavaScript; CSS; AJAX<br>
 **Features:** Code is written in JavaScript with AJAX; 
 #### jQuery
-**Overview:** Introduction to AJAX.<br>
+**Overview:** Introduction to jQuery.<br>
 **Built with:** HTML; JavaScript; CSS; jQuery<br>
-**Features:** Code is written in JavaScript with AJAX; 
+**Features:** Code is written in JavaScript with jQuery; .on & .click events; .hide & .show functions
