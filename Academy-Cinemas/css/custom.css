@@ -67,6 +67,8 @@ body {
     padding-left: 1.5rem;
 }
 
+
+
 /* MOVIE DROP DOWN MENU */
 
 /* Targets the drop down menu that contains the links for ech movie title */
@@ -325,6 +327,8 @@ footer {
     transform: translate(-50%, -50%);
     z-index: 1000;
 }
+
+/* BADGE */
 
 .translate-middle {
   transform: translate(-100%, 0%) !important;
