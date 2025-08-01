@@ -19,6 +19,7 @@ All of the project files for The Tech Academy's JavaScript Course will be stored
 - One-Page Website
 - AJAX
 - jQuery
+- Academy Cinemas
 
 
 #### Project 1 - Expressions Alert
@@ -89,3 +90,11 @@ All of the project files for The Tech Academy's JavaScript Course will be stored
 **Overview:** Introduction to jQuery.<br>
 **Built with:** HTML; JavaScript; CSS; jQuery<br>
 **Features:** Code is written in JavaScript with jQuery; .on & .click events; .hide & .show functions
+#### Acedemy Cinemas
+**Overview:** Using a website from the previous course, we have added Bootstrap elements to the page.<br>
+**Built with:** HTML; JavaScript; CSS; jQuery; Bootstrap<br>
+**Features:** Code is written in JavaScript with jQuery and Bootstrap;
+#### JavaScript Challenges
+**Overview:** A webpage using .<br>
+**Built with:** HTML; JavaScript; CSS<br>
+**Features:** Form validation on a telephone field; Fade-in effect on page load; Validation alert; popup contact form with a sticky button, zoom in and out with hover, automated slideshow, navigation bar, smooth scrolling, keyframes animation

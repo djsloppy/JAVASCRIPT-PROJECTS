@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title></title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js" defer></script>
+</head>
+
+<body>
+    <script>
+        document.body.classList.add('fade-out');
+        window.addEventListener('DOMContentLoaded', () => {
+            document.body.classList.remove('fade-out');
+        });
+    </script>
+    <div>
+        <h1>This should be one of the final JavaScript challenges.</h1><br>
+        <nav class="nav-bar">
+            <ul>
+                <li><a href="#redpanda">Red Panda</a></li>
+                <li><a href="#binturong">Binturong</a></li>
+                <li><a href="#slides">Slideshow</a></li>
+                <li><a href="#requirements">Table of Requirements</a></li>
+            </ul>
+        </nav>
+        <hr>
+        <p>I have learned so much during this as I had no knowledge of JavaScript coming into this and now feel
+            confident I can do anything with just a little bit of time to learn the new topics.</p>
+        <p>Below you will find a form that I'm am looking for some information. Please fill out the following
+            information:</p>
+    </div>
+    <hr>
+    <div id="redpanda">
+        <div class="keyAnimate">
+            <p><img src="images/redpanda.gif" class="rider" alt="walking red panda"></p>
+        </div>
+    </div>
+    <hr>
+    <div id="binturong">
+        <img id="iZoom" src="images/binturong.jpg" class="zooming">
+    </div>
+    <div>
+        <button class="open-button" onclick="openForm()">Contact Me</button>
+        <div class="form-popup" id="myForm">
+            <form class="form-container" name="telForm">
+                <h1>Contact:</h1>
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone"><br>
+                <button type="submit" class="btn" onclick="telValidation()">Submit</button>
+                <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+            </form>
+        </div>
+    </div>
+
+    <hr>
+    <!-- Slideshow container-->
+		<div id="slides" class="slideshow-container">
+            <p>Automated Slideshow</p>
+			<div class="mySlides fade">
+				<img src="images/redppanda.webp" style="width: 416px;" alt="red panda">
+				<div class="text">Red Panda</div>
+			</div>
+			<div class="mySlides fade">
+				<img src="images/leopard.webp" style="width: 416px;" alt="leopard">
+				<div class="text">Leopard</div>
+			</div>
+			<div class="mySlides fade">
+				<img src="images/otters.webp" style="width: 416px;" alt="otters">
+				<div class="text">Otters</div>
+			</div>
+			<div class="mySlides fade">
+				<img src="images/tiger.webp" style="width: 416px;" alt="tiger">
+				<div class="text">Tiger</div>
+			</div>
+		</div>
+        <br>
+		<div style="text-align: center;">
+			<span class="dot">1</span>
+			<span class="dot">2</span>
+			<span class="dot">3</span>
+			<span class="dot">4</span>
+		</div>
+    <hr>
+    <br>
+    <div>
+        <table id="requirements">
+            <tr>
+                <th colspan="2">The following items were requirements for this project:</th>
+            </tr>
+            <tr>
+                <td>- setting font size using vw</td>
+                <td>- fade-in effect on page load</td>
+            </tr>
+            <tr>
+                <td>- form with phone # field</td>
+                <td>- form validation alert</td>
+            </tr>
+            <tr>
+                <td>- popup contact form</td>
+                <td>- animation with @keyframes</td>
+            </tr>
+            <tr>
+                <td>- have a picture zoom in and out using CSS</td>
+                <td>- HTML bookmarks to various sections of a webpage; with smooth scrolling</td>
+            </tr>
+            <tr>
+                <td>- automated slideshow</td>
+                <td>- sticky contact form button</td>
+            </tr>
+        </table>
+    </div>
+</body>
+
+</html>
