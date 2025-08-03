@@ -20,6 +20,10 @@ All of the project files for The Tech Academy's JavaScript Course will be stored
 - AJAX
 - jQuery
 - Academy Cinemas
+- JavaScript Challenges
+- todo App
+- JavaScript Final
+- Student Portfolio
 
 
 #### Project 1 - Expressions Alert
@@ -95,6 +99,18 @@ All of the project files for The Tech Academy's JavaScript Course will be stored
 **Built with:** HTML; JavaScript; CSS; jQuery; Bootstrap<br>
 **Features:** Code is written in JavaScript with jQuery and Bootstrap;
 #### JavaScript Challenges
-**Overview:** A webpage using .<br>
+**Overview:** A webpage using various elements.<br>
 **Built with:** HTML; JavaScript; CSS<br>
 **Features:** Form validation on a telephone field; Fade-in effect on page load; Validation alert; popup contact form with a sticky button, zoom in and out with hover, automated slideshow, navigation bar, smooth scrolling, keyframes animation
+#### todo App
+**Overview:** An online To-Do App. Allows user to add and remove items from a to-do list.<br>
+**Built with:** HTML; JavaScript; CSS<br>
+**Features:** Add to an array; remove from an array; 
+#### JavaScript Final
+**Overview:** We were introduced APIs and how to connect to them.<br>
+**Built with:** HTML; JavaScript; CSS<br>
+**Features:** ondblclick method; connect and get data from various APIs
+#### Student Portfolio
+**Overview:** We added to the portfolio site that we built during the HTML & CSS course.<br>
+**Built with:** HTML; JavaScript; CSS<br>
+**Features:** onclick method; ondblclick method; video; slideshow; contact form; validation; @media screen adjustments; event listeners.
